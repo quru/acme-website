@@ -17,5 +17,5 @@ To stop the web server, run:
 #### Sample images
 
 The sample images in the web site originate from
-[http://looneytunes.wikia.com/](http://looneytunes.wikia.com/)
-([CC-BY-SA license](http://www.wikia.com/Licensing)).
+[http://looneytunes.wikia.com/](http://looneytunes.wikia.com/), used under the
+[CC-BY-SA license](http://www.wikia.com/Licensing).
