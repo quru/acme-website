@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Acme Corporation</title>
+<style>
+    body {
+        background-color: white;
+        font-family: sans-serif;
+        font-size: 12pt;
+        color: black;
+        padding: 2em;
+    }
+    article {
+        box-sizing: content-box;
+        display: block;
+        padding: 1em;
+    }
+    article div {
+        display: inline-block;
+        margin-left: 0.5em;
+    }
+    article img {
+        width: 200px;
+        vertical-align: top;
+    }
+    .price {
+        font-style: italic;
+    }
+    .promo {
+        color: red;
+        font-style: italic;
+    }
+</style>
+</head>
+<body>
+    <h1>Acme Corporation</h1>
+    <p>Products that enhance your modern lifestyle!</p>
+    <!--
+    <p class="promo">
+    TODAY ONLY! 20% off all marked prices with code "meepmeep".
+    </p> 
+    -->
+    <section>
+        <article class="product">
+            <img src="images/glue.png">
+            <div>Super gooey super glue, ideal for sticking road-runners.</div>
+            <div class="price">£9.99</div>
+            <div class="buy"><button>Buy Now</button></div>
+        </article>
+        <article class="product">
+            <img src="images/handlebars.png">
+            <div>Spare handle bars for busy people.</div>
+            <div class="price">£24.99</div>
+            <div class="buy"><button>Buy Now</button></div>
+        </article>
+        <article class="product">
+            <img src="images/hs-tonic.png">
+            <div>A powerful tonic for when you're feeling down.</div>
+            <div class="price">£6.99</div>
+            <div class="buy"><button>Buy Now</button></div>
+        </article>
+        <article class="product">
+            <img src="images/packager.png">
+            <div>There's no neater packaging machine.</div>
+            <div class="price">£25,300</div>
+            <div class="buy"><button>Buy Now</button></div>
+        </article>
+    </section>
+</body>
+</html>
